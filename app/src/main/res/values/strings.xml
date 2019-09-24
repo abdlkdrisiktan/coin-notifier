@@ -1,3 +1,20 @@
 <resources>
     <string name="app_name">Coin Notifier</string>
+
+
+    <!-- Lorem Ipsum-->
+    <string name="lorem_ipsum" translatable="false">Lorem Ipsum</string>
+    <string name="lorem_ipsum_long" translatable="false">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi accumsan lorem at erat accumsan, in tempus eros condimentum. Donec tristique molestie faucibus. Vestibulum malesuada tellus vel mauris placerat, et tincidunt nulla semper. Suspendisse placerat enim nisi, id hendrerit arcu consectetur et. Morbi non augue nisi. Ut viverra justo ut magna porta, vel pharetra urna semper. Praesent commodo imperdiet tellus eu auctor. Vivamus a finibus metus, nec euismod velit. Suspendisse id semper metus. Sed imperdiet tortor id ex lacinia, non lacinia quam rutrum. Donec consectetur lectus sit amet urna laoreet bibendum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec sollicitudin, urna ac maximus aliquam, ex quam aliquam dolor, ut porta tortor enim vel lorem. Maecenas elementum, lorem sed pulvinar maximus, quam nunc tincidunt felis, in venenatis urna nisl id lorem. </string>
+    <string name="lorem_ipsum_medium" translatable="false">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</string>
+    <string name="lorem_ipsum_short" translatable="false">lorem</string>
+    <string name="lorem_ipsum_percent" translatable="false">10%</string>
+    <string name="lorem_time" translatable="false">08.15</string>
+    <string name="lorem_date" translatable="false">28.06.1991</string>
+    <string name="lorem_number" translatable="false">0.21</string>
+    <string name="lorem_decimal_number" translatable="false">7</string>
+    <string name="lorem_ipsum_currency" translatable="false">₺ 72.95</string>
+    <string name="lorem_ipsum_duration" translatable="false">14 min</string>
+    <string name="lorem_ipsum_distance" translatable="false">28.06 km</string>
+    <string name="lorem_ipsum_credit_card" translatable="false">5555 0000 2222 3333</string>
+    <string name="lorem_ipsum_credit_card_without_space" translatable="false">5555000022223333</string>
 </resources>

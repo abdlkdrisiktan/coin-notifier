@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.swiperefreshlayout.widget.SwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/swipe_list_base_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/secondary_background"
+    >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <ProgressBar
+            android:layout_width="@dimen/size_progress_bar"
+            android:layout_height="@dimen/size_progress_bar"
+            android:layout_gravity="center"
+            android:backgroundTintMode="src_atop"
+            android:indeterminateTint="@color/colorAccent"
+            tools:visibility="visible"
+            />
+
+
+        <TextView
+            android:id="@+id/list_base_empty_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:drawablePadding="@dimen/spacing_normal"
+            android:drawableTop="@drawable/ic_launcher_background"
+            android:gravity="center"
+            android:text="@string/lorem_ipsum"
+            android:textAppearance="@style/TextAppearance.AppCompat.Title"
+            android:textColor="@color/text_color_secondary"
+            />
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/list_base_recyclerview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clipToPadding="false"
+            android:paddingBottom="@dimen/spacing_normal"
+            android:paddingTop="@dimen/spacing_normal"
+            >
+
+        </androidx.recyclerview.widget.RecyclerView>
+    </FrameLayout>
+
+</androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
